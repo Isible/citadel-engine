@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-citadel-irparser = { path = "../irparser" }
-citadel-api = { path = "../api" }
+citadel-irparser = { git = "https://github.com/Isible/citadel.git" }
+citadel-api = { path = "https://github.com/Isible/citadel.git" }
 bumpalo = "3.16.0"
